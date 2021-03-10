@@ -1,7 +1,7 @@
 package nl.novi.basicprogramming;
 
 public class Person {
-    private String name = "Lucas";
+    private String name;
 
     public void Person() {
         this.name = name;
@@ -9,5 +9,9 @@ public class Person {
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String n) {
+        this.name = n;
     }
 }

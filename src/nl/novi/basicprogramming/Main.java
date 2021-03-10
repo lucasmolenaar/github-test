@@ -9,6 +9,7 @@ public class Main {
         System.out.println(c);
 
         Person lucas = new Person();
+        lucas.setName("Lucas");
         System.out.println(lucas.getName());
     }
 }
